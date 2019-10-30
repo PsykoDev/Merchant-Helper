@@ -58,7 +58,7 @@ Johndo(Highwatch)
 
 ------
 
-# 目录
+# Region
 
 * [亚伦南部1 阿勒坤 阿卡尼亞領地](#阿卡尼亞領地-阿勒坤)
 
@@ -114,28 +114,28 @@ Johndo(Highwatch)
 
 [返回目录](#目录)
 
-002 西部砍伐區 - 森林守護者營地
+002 西部砍伐區 - 森林守護者營地 - Maon's Hütte
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/48312e1572f4e193b81afab1ff298b46.JPG)
 
-002 西部砍伐區 - 妖精溪谷營
+002 西部砍伐區 - 妖精溪谷營 Aaron's Lager
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/61a7cc86c83f263a30ab8135ae4ed242.JPG)
 
-002 西部砍伐區 - 伐木者村莊 北
+002 西部砍伐區 - 伐木者村莊 北 -Holzhausen
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/6bb10efb9b2e56396a3a8b715b8afcef.JPG)
 
-003 遺忘森林 - 中央營地
+003 遺忘森林 - 中央營地 -Vorhutposten
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/b3aea7d4df35b51ce573b0abd2a0d30e.JPG)
 
-003 遺忘森林 - 新月村莊 北
+003 遺忘森林 - 新月村莊 北 -Cresentia
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/d97f1e93c6f884f596e50d487b5488b1.JPG)
 
-005 候季安保護區 - 開拓營地
+005 候季安保護區 - 開拓營地 -Moor
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/42c92150d5902940d48caa17bfcd4b00.JPG)
 
-005 候季安保護區 - 候季安營地
+005 候季安保護區 - 候季安營地 -Tuwangigarison
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/6c650a07cfe0a12efe67bb23db04bebf.JPG)
 
-006 咆哮侵略地 - 波爾森農場
+006 咆哮侵略地 - 波爾森農場 -Ranch "Zwei Eichen"
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/9b11b1f46f1a577b4e6f16cb0bbdf191.JPG)
 
 006 咆哮侵略地 - 鎮壓隊宿營地
