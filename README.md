@@ -25,13 +25,13 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 ------
 
-- 已增加 Owyn作者的 [field-boss_time](https://github.com/Owyn/field-boss_time) 模组功能, 三大世界王 刷新时间跟踪记录功能
+- Owyn's Mod [field-boss_time](https://github.com/Owyn/field-boss_time) module function has been added, the three world kings refresh time tracking function
 
-- 已增加 Lambda11作者的 [bam-hp-bar](https://github.com/Lambda11/bam-hp-bar) 模组功能, 血量显示功能
+- Lamba11's Mod [bam-hp-bar](https://github.com/Lambda11/bam-hp-bar) Module function, blood volume display function(idk if this is correct. i just translated it from CN to EN)
 
-- 已增加 全地图领地[流浪商人][神秘商店][交付哥布林]NPC
+- Has been added to the full map territory [Wandering Merchant] [mystery shop] [delivered Goblin] NPC
 
-- 已增加 四主城[交付哥布林]NPC 刷新时间跟踪记录功能
+- Added four main city [delivered Goblin] NPC refresh time tracking record function
 
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/05.png)
 
@@ -41,7 +41,7 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 ------
 
-# 神秘商人(交付哥布林)
+# Mysterious businessman (delivered Goblin)
 
 彼得佩依(貝利卡)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/01.png)
