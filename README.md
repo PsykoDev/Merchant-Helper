@@ -43,16 +43,16 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 # Mysterious businessman (delivered Goblin)
 
-彼得佩依(貝利卡)
+彼得佩依(Velika)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/01.png)
 
-修墨斯克(爾雷曼西亞)
+修墨斯克(Allemantheia)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/02.png)
 
-凱爾門拉依特(凱亞多勒)
+凱爾門拉依特(Kaiator)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/03.png)
 
-約翰度(伊露卡)
+約翰度(Highwatch)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.png)
 
 ------
