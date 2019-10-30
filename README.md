@@ -53,5 +53,5 @@ Kayle(Kaiator)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/03.png)
 
 Johndo(Highwatch)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.png)
+![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.PNG)
 
