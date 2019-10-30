@@ -55,11 +55,6 @@ Kayle(Kaiator)
 Johndo(Highwatch)
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.png)
 
-------
-
-# 以下截图内容来自 巴哈论坛 作者: 零玥寧
-
-https://home.gamer.com.tw/creationDetail.php?sn=4507080
 
 ------
 
