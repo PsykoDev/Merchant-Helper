@@ -44,14 +44,14 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 # Mysterious Merchant (delivered Goblin)
 
 Petil(Velika)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/01.png)
+![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/01.png)
 
 Hyumo(Allemantheia)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/02.png)
+![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/02.png)
 
 Kayle(Kaiator)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/03.png)
+![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/03.png)
 
 Johndo(Highwatch)
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/04.PNG)
+![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/04.png)
 
