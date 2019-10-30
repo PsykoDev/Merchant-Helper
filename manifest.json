@@ -1,8 +1,15 @@
 {
     "files": {
-        "index.js": "ae23a1fd9da1cf90f6ac06f81e82db7282acbef5b42999dd35725b53f61cdcb6",
-        "module.json": "ba2483c0b502ebfbcd3f976916def151c5b12e4e82d6ce3e5e0e0076c252811b",
-        "settings_migrator.js": "c7c0e2ca9679e984579e019bb8622e8549eb949884e972d62cdcea7026697a9e"
+        "README.md": "8214bbe9aa4f946a8e97a8daeb59658d9803e83ce80a0fd66e10094a82aeb5d0",
+        "index.js": "04b5755bc5181b4c8197bad1f2faf02fa4cf358572c2d0f45e457bfb41621064",
+        "module.json": "415f920212e77a440f4cce5203d85253567adde012915d06af41ffcc8aaff6b3",
+        "screenshot/01.PNG": "0f48258efb9baa9090e949b76a4871119d3752f9085ac7f3cd119986bca023f8",
+        "screenshot/02.PNG": "f50c40a480c245e3b9bb8191f3a78eaa14824f93a54e84cfc2f0bc61e5da3e63",
+        "screenshot/03.PNG": "63557a6a562f28da262cf68a80223e6c89525bfaaec337068386c7070aadf273",
+        "screenshot/04.PNG": "76aa7ddf2616f7d64140a63560c30bb8c284540e027241a7183c9ea8e98f581a",
+        "screenshot/05.png": "ac531674c3d10908385750005e89925b217e6bf09278ed7480579fdcc1ab983a",
+        "screenshot/06.png": "59e0c878d55f1e61cebbfb5d1d2f9b214d65b8862b7d58a65f69f9470219db2c",
+        "settings_migrator.js": "658ce380880509ecefd30c371552edb13bb899154e1051aa046651600363b501"
     },
     "defs": {
         "S_BOSS_GAGE_INFO": 3,
