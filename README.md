@@ -33,25 +33,25 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 - Added four main city [delivered Goblin] NPC refresh time tracking record function
 
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/05.png)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/05.png)
 
 -  NekoOwO Notify added [NekoOWO-Notify](https://github.com/PatrickSantoZZ/NekoOWO-Notify) module function has been added, and the hang-up can also receive a message reminder from [Computer System].
 
-![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/06.png)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/06.png)
 
 ------
 
 # Mysterious Merchant (delivered Goblin)
 
 Petil(Velika)
-![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/01.PNG)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/01.PNG)
 
 Hyumo(Allemantheia)
-![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/02.PNG)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/02.PNG)
 
 Kayle(Kaiator)
-![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/03.PNG)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/03.PNG)
 
 Johndo(Highwatch)
-![screenshot](https://github.com/patricksantozz/Boss-Helper/blob/master/screenshot/04.PNG)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/04.PNG)
 
