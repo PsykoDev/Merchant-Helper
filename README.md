@@ -35,7 +35,7 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/05.png)
 
-- 已增加 Seren作者的 [tera-notifier](https://github.com/SerenTera/tera-notifier) 模组功能, 挂机也能收到[电脑系统]发出的消息提醒
+-  NekoOwO Notify added [NekoOWO-Notify](https://github.com/PatrickSantoZZ/NekoOWO-Notify) module function has been added, and the hang-up can also receive a message reminder from [Computer System].
 
 ![screenshot](https://github.com/tera-mod/Boss-Helper/blob/master/screenshot/06.png)
 
