@@ -7,7 +7,7 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 ------
 
-/8频道 键入命令 | 效果说明
+/8 command | description
 --- | ---
 怪物 | 开启/关闭模组 (默认开启)
 怪物 警告 | 在屏幕上警告通知消息
