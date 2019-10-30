@@ -1,19 +1,18 @@
 {
-    "name": "Boss-Helper",
+    "name": "Merchant-Helper",
     "options": {
-        "niceName": "怪物提示",
-        "guiName": "怪物提示(Boss-Helper)",
+        "niceName": "Merchant Helper",
+        "guiName": "Merchant Helper",
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js",
         "settingsVersion": 9
     },
-    "author": "ZC / mopihu / Owyn/ Lambda11",
-    "description": "指定NPC(怪物/世界王/流浪商人)在可视范围内出现时, 发送对应文字提示, 并标记位置",
-    "servers": ["https://raw.githubusercontent.com/tera-mod/Boss-Helper/master/"],
-    "supportUrl": "https://github.com/tera-mod/Boss-Helper/issues",
+    "author": "ZC / Neko / mopihu / Owyn/ Lambda11",
+    "description": "Helps you to find deliver Goblin/Wandering merchant / Mystery Shop NPC's",
+    "servers": ["https://raw.githubusercontent.com/PatrickSantoZZ/Boss-Helper/master/"],
     "dependencies": {
         "notifier": "https://raw.githubusercontent.com/SerenTera/tera-notifier/master/module.json",
-        "tera-message": "https://raw.githubusercontent.com/tera-mod/tera-message/master/module.json"
+        "tera-message": "https://raw.githubusercontent.com/PatrickSantoZZ/tera-message/master/module.json"
     },
     "version": "86.05"
 }
