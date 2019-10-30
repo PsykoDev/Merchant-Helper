@@ -58,7 +58,7 @@ Johndo(Highwatch)
 
 ------
 
-# Region
+# Region overview
 
 * [亚伦南部1 阿勒坤 阿卡尼亞領地](#阿卡尼亞領地-阿勒坤)
 
@@ -138,13 +138,13 @@ Johndo(Highwatch)
 006 咆哮侵略地 - 波爾森農場 -Ranch "Zwei Eichen"
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/9b11b1f46f1a577b4e6f16cb0bbdf191.JPG)
 
-006 咆哮侵略地 - 鎮壓隊宿營地
+006 咆哮侵略地 - 鎮壓隊宿營地 -Verteidigerlager
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/a64f8a731762143ef8c860ed7a38ccd7.JPG)
 
-007 永恆盆地 - 羅德克農場
+007 永恆盆地 - 羅德克農場 -Godric's Farm
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/60756701f6253bd715bd43ddc45db8df.JPG)
 
-007 永恆盆地 - 神秘地帶研究所
+007 永恆盆地 - 神秘地帶研究所 Sanctum Mysterium
 ![screenshot](https://truth.bahamut.com.tw/s01/201909/5f3d4cb63b55d2a28c5bbebc3475aa68.JPG)
 
 [返回目录](#目录)
