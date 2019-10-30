@@ -1,9 +1,9 @@
-Boss-Helper 怪物提示
+Merchant Helper
 ======
 
-# 功能简介
+# Function introduction
 
-指定NPC(怪物/世界王/流浪商人)在可视范围内出现时, 发送对应文字提示, 并标记位置
+When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears in the visible range, send the corresponding text prompt and mark the location.
 
 ------
 
@@ -19,9 +19,9 @@ Boss-Helper 怪物提示
 
 ------
 
-- 更多怪物查询: https://github.com/neowutran/TeraDpsMeterData/tree/master/monsters/  monsters-TW.xml
+- More monster IDs: https://github.com/neowutran/TeraDpsMeterData/tree/master/monsters/  monsters-EU-EN.xml
 
-- 编辑 config.json 自定义项目
+- Edit config.json if you want more notify for mobs :)
 
 ------
 
