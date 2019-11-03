@@ -45,7 +45,7 @@ module.exports = function MerchantHelper(mod) {
 					}
 					break
 				case "status":
-					MSG.chat("------------ 世界BOSS ------------")
+					MSG.chat("------------ BOSS ------------")
 					for (const i of mod.settings.bosses) {
 						if (i.logTime == undefined) continue
 						if (![5001, 501, 4001].includes(i.templateId)) continue
