@@ -3,6 +3,7 @@ module.exports = function MerchantHelper(mod) {
 	const Message = require('../tera-message')
 	const MSG = new Message(mod)
 	
+	
 	let mobid = [],
 		boss = null,
 		bossName = null,
