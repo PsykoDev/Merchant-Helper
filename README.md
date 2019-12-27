@@ -10,7 +10,7 @@ When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appe
 # How to
 - put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
 - its install 2 dependencies Tera Notifier & Tera-Message
-- rename german config if you want the german names of the NPC's or the english config if you want the english names. :) config.de.json > config.json / config.en.json > config.json
+- rename settings_migrator_DE.js if you want the german names of the NPC's or the english config if you want the english names. :) settings_migrator_DE.js > settings_migrator.js / settings_migrator_EN.js > settings_migrator.js
 
 /8 command | description
 --- | ---

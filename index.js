@@ -53,11 +53,11 @@ module.exports = function MerchantHelper(mod) {
 						
 						var nextTime = i.logTime + 5*60*60*1000
 						if (i.logTime == 0) {
-							MSG.chat(MSG.RED(i.name) + MSG.YEL(" Noch nichts"))
+							MSG.chat(MSG.RED(i.name) + MSG.YEL("nothing tracked"))
 						} else if (Date.now() < nextTime) {
 							MSG.chat(MSG.RED(i.name) + " next " + MSG.TIP(getTime(nextTime)))
 						} else {
-							MSG.chat(MSG.RED(i.name) + " letzte " + MSG.GRY(getTime(nextTime)))
+							MSG.chat(MSG.RED(i.name) + " last " + MSG.GRY(getTime(nextTime)))
 						}
 					}
 					// break
@@ -69,7 +69,7 @@ module.exports = function MerchantHelper(mod) {
 						
 						var nextTime = j.logTime + 24*60*60*1000
 						if (j.logTime == 0) {
-							MSG.chat(MSG.PIK(j.name) + MSG.YEL(" Noch nichts"))
+							MSG.chat(MSG.PIK(j.name) + MSG.YEL("nothing tracked"))
 						} else if (Date.now() < nextTime) {
 							MSG.chat(MSG.PIK(j.name) + " next " + MSG.TIP(getTime(nextTime)))
 						} else {
@@ -235,23 +235,7 @@ module.exports = function MerchantHelper(mod) {
 			gameId: gameId*10n
 		})
 	}
-		hooks = []
 
-		}
-	}
-	
-	function unload() {
-		if (hooks.length) {
-			for (let h of hooks) {
-				mod.unhook(h);
-			}
-			hooks = []
-		}
-	}
-	
-	function hook() {
-		hooks.push(mod.hook(...arguments));
-	}
 	
 	function notificationafk(msg, timeout) { // timeout in milsec
 		notifier.notifyafk({

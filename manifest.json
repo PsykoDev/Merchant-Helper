@@ -1,21 +1,20 @@
 {
     "files": {
-        "index.js": "3202eb183ade0176c33afbb4891d142cf9870bed6ea03abab394a777fbcdeed6",
-        "module.json": "feb3acf31b5a8244fbd84e4bb03680f642f5de567f363cfb576240c51679b5a3",
+        "index.js": "54c2aa992257fba2ba4c32216cc328c036118a750e12eee7ab2db2f013a75d41",
+        "module.json": "a5da32aafc0644da5bb8ea235d1ab5bf78c1f45baff1b7af3f0a5e84469f1935",
         "screenshot/01.PNG": "0f48258efb9baa9090e949b76a4871119d3752f9085ac7f3cd119986bca023f8",
         "screenshot/02.PNG": "f50c40a480c245e3b9bb8191f3a78eaa14824f93a54e84cfc2f0bc61e5da3e63",
         "screenshot/03.PNG": "63557a6a562f28da262cf68a80223e6c89525bfaaec337068386c7070aadf273",
         "screenshot/04.PNG": "76aa7ddf2616f7d64140a63560c30bb8c284540e027241a7183c9ea8e98f581a",
-        "screenshot/05.png": "ac531674c3d10908385750005e89925b217e6bf09278ed7480579fdcc1ab983a",
+        "screenshot/05.png": "1c978390ccaea1fb67276f98073a9afe5f86cdb4fb4d3fcff1517183d0f33ee8",
+        "screenshot/06.PNG": "68c82ef29b78819d63022cca19980e9715edac953d9d849bcf3072d92e2a4234",
         "screenshot/06.png": "59e0c878d55f1e61cebbfb5d1d2f9b214d65b8862b7d58a65f69f9470219db2c",
-        "settings_migrator.js": "658ce380880509ecefd30c371552edb13bb899154e1051aa046651600363b501"
+        "settings_migrator_DE.js": "658ce380880509ecefd30c371552edb13bb899154e1051aa046651600363b501",
+        "settings_migrator_EN.js": "4eca7870a2f8acaf309ec10269048a1ac455c4f8a207ec551c2ed8edf56efa71"
     },
     "defs": {
-        "S_BOSS_GAGE_INFO": 3,
         "S_DESPAWN_DROPITEM": 4,
         "S_DESPAWN_NPC": 3,
-        "S_EACH_SKILL_RESULT": 14,
-        "S_NPC_STATUS": 2,
         "S_SPAWN_DROPITEM": 8,
         "S_SPAWN_NPC": 11,
         "S_SYSTEM_MESSAGE": 1
