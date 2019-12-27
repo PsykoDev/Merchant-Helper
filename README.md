@@ -10,7 +10,7 @@ When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appe
 /8 command | description
 --- | ---
 mh         | main command
-mh  status | show info in proxy chat
+mh  status | show info about boss and merchant in proxy chat
 怪物 通知   | 在团长通知中提示消息
 怪物 消息   | 在代理频道中记录消息
 怪物 标记   | 在怪物刷新位置龙头光柱
