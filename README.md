@@ -8,8 +8,8 @@ When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appe
 ------
 
 # How to
-put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
-
+-put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
+-its install 2 dependencies Tera Notifier & Tera-Message
 
 
 /8 command | description
@@ -38,9 +38,9 @@ mh clear   | clear all markers
 
 ![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/05.png)
 
--  NekoOwO Notify added [NekoOWO-Notify](https://github.com/PatrickSantoZZ/NekoOWO-Notify) module function has been added, and the hang-up can also receive a message reminder from [Computer System].
+-  NekoOwO Notify added [NekoOWO-Notify](https://github.com/PatrickSantoZZ/NekoOWO-Notify) module function has been added, and the hang-up can also receive a message reminder from [Windows].
 
-![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/06.png)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/06.PNG)
 
 ------
 
