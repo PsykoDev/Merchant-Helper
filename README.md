@@ -3,19 +3,24 @@ Merchant Helper
 
 # Function introduction
 
-When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appears in the visible range, send the corresponding text prompt and mark the location.
-
+When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appears in the visible range, send a notice and mark the location.
+- removed exploity shit. 
 ------
+
+# How to
+put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
+
+
 
 /8 command | description
 --- | ---
-mh         | main command
-mh  status | show info about boss and merchant in proxy chat
-怪物 通知   | 在团长通知中提示消息
-怪物 消息   | 在代理频道中记录消息
-怪物 标记   | 在怪物刷新位置龙头光柱
-怪物 清除   | 清除龙头光柱标记
-怪物 查询   | 3大-世界王 / 4城-交付哥布林 刷新时间
+mh         | main command enabled/disable Mod
+mh status | show infos about boss and merchant in proxy chat
+mh alert   | enable/disable alert
+mh notice   | enable/disable notice
+mh message  | enable/disable message
+mh mark  | enable/disable marker
+mh clear   | clear all markers
 
 ------
 
@@ -25,11 +30,11 @@ mh  status | show info about boss and merchant in proxy chat
 
 ------
 
-- Owyn's Mod [field-boss_time](https://github.com/Owyn/field-boss_time) module function has been added, the three world kings refresh time tracking function
+- Owyn's Mod [field-boss_time](https://github.com/Owyn/field-boss_time) module function has been added, the three worldboss refresh time tracking.
 
-- Has been added to the full map territory [Wandering Merchant] [mystery shop] [delivered Goblin] NPC
+- Openworld merchants/Goblins added.
 
-- Added four main city [delivered Goblin] NPC refresh time tracking record function
+- Added four main city [deliver Goblins] NPC refresh time tracking record function
 
 ![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/05.png)
 
