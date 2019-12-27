@@ -4,13 +4,13 @@ Merchant Helper
 # Function introduction
 
 When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appears in the visible range, send a notice and mark the location.
-- removed exploity shit. 
+- german and english config 
 ------
 
 # How to
 - put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
 - its install 2 dependencies Tera Notifier & Tera-Message
-
+- rename german config if you want the german names of the NPC's or the english config if you want the english names. :) config.de.json > config.json / config.en.json > config.json
 
 /8 command | description
 --- | ---
