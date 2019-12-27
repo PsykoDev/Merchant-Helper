@@ -40,7 +40,7 @@ mh clear   | clear all markers
 
 -  NekoOwO Notify added [NekoOWO-Notify](https://github.com/PatrickSantoZZ/NekoOWO-Notify) module function has been added, and the hang-up can also receive a message reminder from [Computer System].
 
-![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/06.png)
+![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/06.PNG)
 
 ------
 
