@@ -8,8 +8,8 @@ When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appe
 ------
 
 # How to
--put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
--its install 2 dependencies Tera Notifier & Tera-Message
+- put the merchant-helper-master in your Tera Proxy/Tera Toolbox folder
+- its install 2 dependencies Tera Notifier & Tera-Message
 
 
 /8 command | description
