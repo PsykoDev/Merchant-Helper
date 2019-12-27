@@ -27,8 +27,6 @@ When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears 
 
 - Owyn's Mod [field-boss_time](https://github.com/Owyn/field-boss_time) module function has been added, the three world kings refresh time tracking function
 
-- Lamba11's Mod [bam-hp-bar](https://github.com/Lambda11/bam-hp-bar) Module function, blood volume display function(idk if this is correct. i just translated it from CN to EN)
-
 - Has been added to the full map territory [Wandering Merchant] [mystery shop] [delivered Goblin] NPC
 
 - Added four main city [delivered Goblin] NPC refresh time tracking record function
