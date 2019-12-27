@@ -62,7 +62,7 @@ module.exports = function MerchantHelper(mod) {
 					}
 					// break
 				// case "merchant":
-					MSG.chat("------------ Geheimhändler ------------")
+					MSG.chat("------------ Mystery Merchant ------------")
 					for (const j of mod.settings.bosses) {
 						if (j.logTime == undefined) continue
 						if (![63, 72, 84, 183].includes(j.huntingZoneId)) continue
@@ -73,12 +73,12 @@ module.exports = function MerchantHelper(mod) {
 						} else if (Date.now() < nextTime) {
 							MSG.chat(MSG.PIK(j.name) + " next " + MSG.TIP(getTime(nextTime)))
 						} else {
-							MSG.chat(MSG.PIK(j.name) + " letzte " + MSG.GRY(getTime(nextTime)))
+							MSG.chat(MSG.PIK(j.name) + " last " + MSG.GRY(getTime(nextTime)))
 						}
 					}
 					break
 				default:
-					MSG.chat("Boss-Helper " + MSG.RED("Parameterfehler!"))
+					MSG.chat("Boss-Helper " + MSG.RED("wrong parameter!"))
 					break
 			}
 		}
@@ -98,10 +98,10 @@ module.exports = function MerchantHelper(mod) {
 				mobid.push(event.gameId)
 			}
 			if (mod.settings.alerted) {
-				MSG.alert(( boss.name + " entdeckt "), 44)
+				MSG.alert(( boss.name + " found "), 44)
 			}
 			if (mod.settings.notice) {
-				MSG.raids( boss.name + " entdeckt ")
+				MSG.raids( boss.name + " found ")
 			}
 		}
 		
@@ -133,23 +133,7 @@ module.exports = function MerchantHelper(mod) {
 		if (!mobid.includes(event.gameId)) return
 		
 		whichBoss(event.huntingZoneId, event.templateId)
-		// if (boss) {
-			// if (event.type == 5) {
-				// if (mod.settings.alerted) {
-					// MSG.alert((boss.name + " 被击杀"), 44)
-				// }
-				// if (mod.settings.notice) {
-					// MSG.raids(boss.name + " 被击杀")
-				// }
-			// } else if (event.type == 1) {
-				// if (mod.settings.alerted) {
-					// MSG.alert((boss.name + " ...超出范围"), 44)
-				// }
-				// if (mod.settings.notice) {
-					// MSG.raids(boss.name + " ...超出范围")
-				// }
-			// }
-		// }
+	
 		despawnItem(event.gameId)
 		mobid.splice(mobid.indexOf(event.gameId), 1)
 	})
@@ -192,11 +176,7 @@ module.exports = function MerchantHelper(mod) {
 				}
 				break
 			case 'SMT_WORLDSPAWN_NOTIFY_DESPAWN':
-				// getBossMsg(sysMsg.tokens.npcName)
-				// whichBoss(bossHunting, bossTemplate)
-				// if (boss) {
-					// MSG.chat(MSG.PIK(boss.name) + MSG.YEL(" 已离开"))
-				// }
+				
 				break
 			default :
 				break
@@ -255,69 +235,8 @@ module.exports = function MerchantHelper(mod) {
 			gameId: gameId*10n
 		})
 	}
-	
-	// BAM-HP-Bar
-	let gage_info = {
-			id: 0n,
-			huntingZoneId: 0,
-			templateId: 0,
-			target: 0n,
-			unk1: 0,
-			unk2: 0,
-			curHp: 16000000000n,
-			maxHp: 16000000000n,
-			unk3: 1
-		},
 		hooks = []
-	
-	function update_hp() {
-		mod.toClient('S_BOSS_GAGE_INFO', 3, gage_info);
-	}
-	// 0: 0% <= hp < 20%, 1: 20% <= hp < 40%, 2: 40% <= hp < 60%, 3: 60% <= hp < 80%, 4: 80% <= hp < 100%, 5: 100% hp
-	function correct_hp(stage) {
-		let boss_hp_stage = BigInt(20*(1+stage));
-		// we missed some part of the fight?
-		if (gage_info.curHp * 100n / gage_info.maxHp > boss_hp_stage) {
-			gage_info.curHp = gage_info.maxHp * boss_hp_stage / 100n;
-			update_hp();
-			mod.command.message('Boss HP recheck <font color="#E69F00">' + String(boss_hp_stage) + '</font>%');
-		}
-	}
-	
-	function load(e) {
-		gage_info.id = e.gameId;
-		gage_info.curHp = gage_info.maxHp;
-		correct_hp(e.hpLevel);
-		if (e.mode) {
-			mod.command.message('BOSS HP ~ <font color="#E69F00">' + Math.round((99999999 - e.remainingEnrageTime)/1000) + '</font> try again');
-		}
-		
-		if (e.hpLevel == 5) {
-			mod.command.message("BOSS HP sind : 100%, wurde noch nicht angehittet");
-		} else if (e.hpLevel == 0) {
-			mod.command.message('BOSS HP niedriger als <font color="#FF0000">20%</font> !!!');
-		}
-		
-		if (!hooks.length) {
-			setTimeout(update_hp, 1000);
-			hook('S_NPC_STATUS', 2, (event) => {
-				if (event.gameId === gage_info.id) {
-					correct_hp(event.hpLevel);
-				}
-			});
-			
-			hook('S_EACH_SKILL_RESULT', 14, (event) => {
-				if (event.target === gage_info.id && event.type === 1) {
-					gage_info.curHp -= event.value;
-					update_hp();
-				}
-			});
-			
-			hook('S_DESPAWN_NPC', 3, (event) => {
-				if (event.gameId === gage_info.id) {
-					unload();
-				}
-			});
+
 		}
 	}
 	
