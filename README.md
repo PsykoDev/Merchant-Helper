@@ -3,19 +3,19 @@ Merchant Helper
 
 # Function introduction
 
-When the specified NPC (Mystery Shop/Deliver Goblin/Wandering Merchant) appears in the visible range, send the corresponding text prompt and mark the location.
+When the specified NPC (Mystery Merchant/Deliver Goblin/Wandering Merchant) appears in the visible range, send the corresponding text prompt and mark the location.
 
 ------
 
 /8 command | description
 --- | ---
-怪物 | 开启/关闭模组 (默认开启)
-怪物 警告 | 在屏幕上警告通知消息
-怪物 通知 | 在团长通知中提示消息
-怪物 消息 | 在代理频道中记录消息
-怪物 标记 | 在怪物刷新位置龙头光柱
-怪物 清除 | 清除龙头光柱标记
-怪物 查询 | 3大-世界王 / 4城-交付哥布林 刷新时间
+mh         | main command
+mh  status | show info in proxy chat
+怪物 通知   | 在团长通知中提示消息
+怪物 消息   | 在代理频道中记录消息
+怪物 标记   | 在怪物刷新位置龙头光柱
+怪物 清除   | 清除龙头光柱标记
+怪物 查询   | 3大-世界王 / 4城-交付哥布林 刷新时间
 
 ------
 
