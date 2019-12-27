@@ -44,7 +44,7 @@ mh clear   | clear all markers
 
 ------
 
-# Mysterious Merchant (delivered Goblin)
+# Mysterious Merchant
 
 Petil(Velika)
 ![screenshot](https://github.com/PatrickSantoZZ/Merchant-Helper/blob/master/screenshot/01.PNG)
