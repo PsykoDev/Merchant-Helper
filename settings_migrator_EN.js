@@ -95,9 +95,9 @@ const DefaultSettings = {
         {huntingZoneId:  72, templateId: 1276, logTime: 0, name: "3-Mystery Market(A)"},
         {huntingZoneId: 183, templateId: 1276, logTime: 0, name: "4-Mystery Market(HW)"},
 /* ==== World Boss ======================================================================================== */
-        {huntingZoneId:  26, templateId: 5001, logTime: 0, name: "Ortan"},
-        {huntingZoneId:  39, templateId:  501, logTime: 0, name: "Hazard"},
-        {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "Cerrus"},
+        {huntingZoneId:  26, templateId: 5001, logTime: 0, name: "Ortan [Essenia]"},
+        {huntingZoneId:  39, templateId:  501, logTime: 0, name: "Hazard [Val Palrada]"},
+        {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "Cerrus [Lorcada]"},
 /* ==== Civil Unrest: Velika ======================================================================================== */
         {huntingZoneId:  29, templateId: 2001, name: "Anansha(Timeless Woods)"},
         {huntingZoneId:  34, templateId: 2002, name: "Frygaras(Frost Reach)"},
