@@ -1,13 +1,18 @@
 {
     "files": {
-        "index.js": "54c2aa992257fba2ba4c32216cc328c036118a750e12eee7ab2db2f013a75d41",
-        "module.json": "a5da32aafc0644da5bb8ea235d1ab5bf78c1f45baff1b7af3f0a5e84469f1935",
-        "settings_migrator_DE.js": "658ce380880509ecefd30c371552edb13bb899154e1051aa046651600363b501",
-        "settings_migrator_EN.js": "4eca7870a2f8acaf309ec10269048a1ac455c4f8a207ec551c2ed8edf56efa71"
+        "index.js": "6582c3dd74232e165820365b946c421be52debe0241ba408c977a06f23827bc9",
+        "module.json": "14aabf283f0bb6391b8d24455d2d81a75e62a761a7fb53bf8471c19309477d4f",
+        "settings_migrator.js": "856a694d7801035670167f2ef217a2f975f99ae7d7863bf9b348921e00b99eb0"
     },
     "defs": {
+        "C_CHAT": 1,
+        "S_BOSS_GAGE_INFO": 3,
+        "S_CURRENT_CHANNEL": 2,
         "S_DESPAWN_DROPITEM": 4,
         "S_DESPAWN_NPC": 3,
+        "S_EACH_SKILL_RESULT": 14,
+        "S_NOTIFY_GUILD_QUEST_URGENT": 1,
+        "S_NPC_STATUS": 2,
         "S_SPAWN_DROPITEM": 8,
         "S_SPAWN_NPC": 11,
         "S_SYSTEM_MESSAGE": 1
