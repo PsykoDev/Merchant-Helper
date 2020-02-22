@@ -2,10 +2,28 @@ const DefaultSettings = {
     "enabled":  true,
     "alerted":  true, // Flashalert
     "notice":   true, // Notice
+    "party":   false, // PARTY
     "messager": true, // Message 
     "marker":   true, // Marker
     "itemId":  98260, // Vergos's Head
     "bosses": [
+        {huntingZoneId: 10,   templateId:       99, name: "(Snake Island) Sasharak"},
+        {huntingZoneId: 4,    templateId:     5011, name: "(Blast inflammation) Storm Kanash"},
+        {huntingZoneId: 38,   templateId:       35, name: "(Ancient) Scullen"},
+        {huntingZoneId: 57,   templateId:       33, name: "(Hatch) Kachastan"},
+        {huntingZoneId: 51,   templateId:     7011, name: "(Spider) Rachinuja"},
+        {huntingZoneId: 52,   templateId:     9050, name: "(Lizard) Snoop Fighter"},
+        {huntingZoneId: 1023, templateId:     3000, name: "(Event) Phantom of Doliwyn"},
+        {huntingZoneId: 1023, templateId: 20150805, name: "(Event) Phantom of Doliwyn"},
+        {huntingZoneId: 1023, templateId: 88888888, name: "(Event) Treasure Chest"},
+        {huntingZoneId: 1023, templateId: 88888889, name: "(Event) Treasure Chest"},
+        {huntingZoneId: 1023, templateId:   160341, name: "(Event) Santa"},
+        {huntingZoneId: 1023, templateId: 99999997, name: "(Event) Greedy Santa"},
+        {huntingZoneId: 1023, templateId: 99999998, name: "(Event) Santa Claus"},
+        {huntingZoneId: 1023, templateId: 99999991, name: "(Event) Sinus the Egg Thief"},
+        {huntingZoneId: 1023, templateId: 99999992, name: "(Event) Sinus the Egg Thief"},
+        {huntingZoneId: 1023, templateId: 99999999, name: "(Event) Sinus the Egg Thief"},
+        {huntingZoneId:  183, templateId:     6002, name: "(Event) Airdrop"},
 /* ==== South ======================================================================================== */
         {huntingZoneId:   2, templateId: 1271, name: "[Acardia]Arcun(Fey Forest)"},
         {huntingZoneId:   3, templateId: 1271, name: "[Acardia]Arcun(Oblivion Woods)"},
@@ -76,10 +94,33 @@ const DefaultSettings = {
         {huntingZoneId:  84, templateId: 1276, logTime: 0, name: "2-Mystery Market(K)"},
         {huntingZoneId:  72, templateId: 1276, logTime: 0, name: "3-Mystery Market(A)"},
         {huntingZoneId: 183, templateId: 1276, logTime: 0, name: "4-Mystery Market(HW)"},
-/* ==== 世界BOSS ======================================================================================== */
+/* ==== World Boss ======================================================================================== */
         {huntingZoneId:  26, templateId: 5001, logTime: 0, name: "Ortan"},
         {huntingZoneId:  39, templateId:  501, logTime: 0, name: "Hazard"},
-        {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "Cerrus"}
+        {huntingZoneId:  51, templateId: 4001, logTime: 0, name: "Cerrus"},
+/* ==== Guild BOSS ======================================================================================== */
+        {huntingZoneId:  29, templateId: 2001, name: "貪婪的阿嵐夏(古代森林)"},
+        {huntingZoneId:  34, templateId: 2002, name: "憤怒的卡魯古斯(寒冰凍原)"},
+        {huntingZoneId:  34, templateId: 2003, name: "憤怒的煞布拉尼惡(寒冰凍原)"},
+        {huntingZoneId: 152, templateId: 2001, name: "貪婪的阿嵐夏(貝利卡: 戰亂時代)152-2001"},
+        {huntingZoneId: 152, templateId: 2002, name: "憤怒的卡魯古斯(貝利卡: 戰亂時代)152-2002"},
+        {huntingZoneId: 152, templateId: 2003, name: "虐殺的煞布拉尼惡(貝利卡: 戰亂時代)152-2003"},
+        {huntingZoneId: 152, templateId: 7001, name: "貪婪的阿嵐夏(貝利卡: 戰亂時代)152-7001"},
+        {huntingZoneId: 152, templateId: 7002, name: "憤怒的卡魯古斯(貝利卡: 戰亂時代)152-7002"},
+        {huntingZoneId: 152, templateId: 7003, name: "虐殺的煞布拉尼惡(貝利卡: 戰亂時代)152-7003"},
+/* ==== Rare empty island ======================================================================================== */
+        {huntingZoneId: 2020, templateId: 1100, name: "空岛(兵营/高階-中)-高龍追擊者"},
+        {huntingZoneId: 2020, templateId: 1101, name: "空岛(兵营/高階-下)-高龍戰術支援家"},
+        {huntingZoneId: 2020, templateId: 1102, name: "空岛(兵营/高階-上)-高龍制壓者"},
+        {huntingZoneId: 2020, templateId: 1200, name: "空岛(卢地/精銳-下)-那伽神官"},
+        {huntingZoneId: 2020, templateId: 1201, name: "空岛(卢地/精銳-上)-那伽騎士"},
+        {huntingZoneId: 2020, templateId: 1202, name: "空岛(卢地/精銳-中)-那伽執行官"},
+        {huntingZoneId: 2020, templateId: 1300, name: "空岛(猴子)-馬努克"},
+        {huntingZoneId: 2020, templateId: 1400, name: "空岛(蜘蛛)-埃席爾洛普"},
+        {huntingZoneId: 2020, templateId: 1500, name: "空岛(蜥蜴)-傑梅西斯"},
+        {huntingZoneId: 2020, templateId: 1600, name: "空岛(螃蟹)-紅色苔蘚螃蟹"},
+        {huntingZoneId: 2020, templateId: 1601, name: "空岛(蚂蚁)-獨眼食腐獸"},
+        {huntingZoneId: 2020, templateId: 1700, name: "空岛(肥虫)-佩奇斯"}
     ]
 };
 
